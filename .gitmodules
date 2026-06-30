@@ -1,0 +1,3 @@
+[submodule "/home/govind/dotfiles/nvim"]
+	path = /home/govind/dotfiles/nvim
+	url = git@github.com:Govindggupta/nvim-config.git
