@@ -1,0 +1,24 @@
+# Ghostty config
+
+# Theme
+# Some Linux builds may ship many themes; “dark” prefix often works
+theme = "iTerm2 Default"
+
+# Font settings
+font-family = "Cascadia Code"
+font-size = 14
+
+# Window appearance
+background-opacity = 0.7
+
+# Optional: cursor style
+cursor-style = block
+
+custom-shader = ~/.config/ghostty/shaders/cursor_smear.glsl
+
+#no title bar
+# gtk-titlebar = false 
+gtk-titlebar-hide-when-maximized = true
+
+# #ctrl + backspace for deleting entire word
+# keybind = ctrl+backspace=text:\x1b\x7f
