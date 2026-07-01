@@ -1,0 +1,8 @@
+[main]
+capslock = esc
+rightalt = rightcontrol
+
+[shift]
+leftshift = capslock
+rightshift = capslock
+
