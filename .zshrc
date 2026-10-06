@@ -194,3 +194,11 @@ tmux-sessionizer-widget() {
 
 zle -N tmux-sessionizer-widget
 bindkey '^F' tmux-sessionizer-widget
+bindkey "\e\x7f" backward-kill-word
+
+
+# >>> Codex installer >>>
+export PATH="/home/govind/.local/bin:$PATH"
+# <<< Codex installer <<<
+
+. "$HOME/.local/share/../bin/env"
