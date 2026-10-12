@@ -126,6 +126,7 @@ alias gla='git log --oneline --graph --all'
 
 alias tm='tmux'
 alias tn='tmux new-session -s $(basename "$PWD")'
+alias ta='tmux attach-session -t'
 
 bindkey '^H' backward-kill-word
 
