@@ -125,6 +125,7 @@ alias gla='git log --oneline --graph --all'
 
 
 alias tm='tmux'
+alias tn='tmux new-session -s $(basename "$PWD")'
 
 bindkey '^H' backward-kill-word
 
@@ -202,3 +203,4 @@ export PATH="/home/govind/.local/bin:$PATH"
 # <<< Codex installer <<<
 
 . "$HOME/.local/share/../bin/env"
+
